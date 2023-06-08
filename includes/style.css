@@ -67,3 +67,25 @@ footer > ul > li > a {
 footer > ul > li > a:hover {
     text-decoration: underline;
 }
+
+/* Banner Style */
+h1{
+    text-align: center;
+    color: red;
+    font-size: 10ex;
+}
+p{
+    text-align: center;
+    color: red;
+    font-size: 3ex;
+}
+.cen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div{
+    background-image: url(../image/download.jpg);
+    height: 50vh;
+    background-repeat: no-repeat;
+}

@@ -3,11 +3,7 @@
 ?>
 
 <?php
-    require_once "banner.html";
-?>
-
-<?php
-    require_once "banner.html";
+    require_once "includes/banner.html";
 ?>
 
 <?php 
