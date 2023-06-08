@@ -1,5 +1,5 @@
 <?php
-    require_once "header.html";
+    require_once "includes/header.html";
 ?>
 
 <h1>About DOTPlay</h1>
@@ -19,5 +19,5 @@
 
 
 <?php 
-    require_once "footer.html";
+    require_once "includes/footer.html";
 ?>
