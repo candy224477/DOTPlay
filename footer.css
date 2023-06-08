@@ -5,4 +5,20 @@ footer{
     background-color: black;
     color: red !important;
     height: 10vh;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer > ul {
+    display: flex;
+    gap: 20px;
+}
+footer > ul > li {
+    list-style: none;
+} 
+
+footer > ul > li > a {
+    text-decoration: none;
+    color: red;
 }
