@@ -1,6 +1,9 @@
+/* CSS Reset */
 body, html {
     margin: 0;
 }
+
+/* Header Style */
 header {
     display: flex;
     background-color: black;
@@ -27,4 +30,30 @@ header > nav > ul> li > a {
 #sea {
     height: 30px;
     border: 1px solid red;
+}
+
+/* Footer Style */
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    color: red !important;
+    height: 10vh;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer > ul {
+    display: flex;
+    gap: 20px;
+}
+footer > ul > li {
+    list-style: none;
+} 
+
+footer > ul > li > a {
+    text-decoration: none;
+    color: red;
 }
