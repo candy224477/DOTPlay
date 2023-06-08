@@ -69,23 +69,23 @@ footer > ul > li > a:hover {
 }
 
 /* Banner Style */
-h1{
+.banner {
+    background-image: url(../image/download.jpg);
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+.banner > h1{
     text-align: center;
     color: red;
     font-size: 10ex;
 }
-p{
+.banner > p{
     text-align: center;
     color: red;
     font-size: 3ex;
-}
-.cen{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-div{
-    background-image: url(../image/download.jpg);
-    height: 50vh;
-    background-repeat: no-repeat;
 }
