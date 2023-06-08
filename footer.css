@@ -1,0 +1,8 @@
+.fot{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    color: red !important;
+    height: 10vh;
+}
